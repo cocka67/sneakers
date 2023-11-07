@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+body {
+  background: #F1F1F1;
+  font-family: "Anonymous Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding-top: 25px;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  
+}
+
+.social{
+  display: flex;
+  text-decoration: none;
+}
+
+.social-items{
+  list-style: none;
+
+}
+
+.social-item{
+  margin-left: 24px;
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+.container-header{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-bottom: solid 1px #A1A6B4;
+}
+
+.container {
+	margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+ 
+}
+
+.sneakers{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between  ;
+}
+
+.sneaker{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 371px;
+  margin-bottom: 25px;
+}
+.container-text{
+  padding: 32px 24px;
+  box-sizing: border-box;
+}
+.container__title{
+  text-align: left;
+  font-size: 26px;
+font-weight: 700;
+}
+
+.container__text{
+  text-align: left;
+  font-size: 20px;
+font-weight: 400;
+}
+
+.container__image {
+	width: 371px;
+  height: 254px;
+}
+
+.footer{
+  padding-top: 25px;
+  background-color: #121723;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-footer{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text{
+  display: flex;
+    flex-wrap: wrap;
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text::before {
+  content: "";
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
+  height: 1px;  
+  background: rgba(230, 232, 236, 0.40);
+  margin-bottom: 18px;
+}
+
+.footer .social-item{
+  color: white;
+}
