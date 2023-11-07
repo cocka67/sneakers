@@ -1,0 +1,66 @@
+.sneakers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 50px;
+    width: 1140px;
+}
+
+.container__image{
+    height: 600px;
+    align-self: stretch;
+    width: auto;
+}
+
+.sneaker{
+    width: auto;
+}
+
+.container_info{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.text_info{
+    color: #121723;
+    font-size: 20px;
+    font-weight: 400;
+    width: 506px;
+}
+
+.text_info p{
+    margin: 0;
+}
+
+.parameters{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 506px;
+}
+
+.header_parameter{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+.parameter_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid #121723;
+    padding: 24px 0px;
+
+}

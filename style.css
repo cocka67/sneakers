@@ -38,7 +38,7 @@ body {
   margin-left: 24px;
   text-decoration: none;
   text-transform: none;
-  color: black;
+  color: #121723;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -73,7 +73,7 @@ h2 {
   flex-wrap: wrap;
   gap: 24px;
   align-items: flex-start;
-  justify-content: space-between  ;
+  justify-content: space-between;
 }
 
 .sneaker{
@@ -85,20 +85,37 @@ h2 {
   width: 371px;
   margin-bottom: 25px;
 }
+
+.page_link{
+  text-decoration: none;
+  text-transform: none;
+  color:#121723;
+}
+
 .container-text{
   padding: 32px 24px;
   box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+  color:#121723;
 }
+
 .container__title{
   text-align: left;
   font-size: 26px;
-font-weight: 700;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
+  color:#121723;
 }
 
 .container__text{
   text-align: left;
   font-size: 20px;
-font-weight: 400;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  color:#121723;
 }
 
 .container__image {
@@ -125,13 +142,13 @@ font-weight: 400;
 
 .footer-text{
   display: flex;
-    flex-wrap: wrap;
-    color: #A1A6B4;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    flex-direction: column;
-    align-items: center;
+  flex-wrap: wrap;
+  color: #A1A6B4;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-text::before {
