@@ -37,6 +37,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   align-content: space-between;
+  padding: 0;
 }
 
 
@@ -177,6 +178,90 @@ h2 {
   color: white;
 }
 
+.sneakers_pages{
+  display: flex;
+  padding: 48px;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 50px;
+  width: 1200px;
+  box-sizing: border-box;
+  align-content: center;
+}
+
+.container__image_pages{
+  height: 600px;
+  align-self: stretch;
+  width: auto;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.sneaker_pages{
+  width: 1200px;
+}
+
+.container__title_pages{
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.container__text_pages{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.text_info{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container_info{
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.text_info{
+  color: #121723;
+  font-size: 20px;
+  font-weight: 400;
+  width: 556px;
+}
+
+.text_info p{
+  margin: 0;
+}
+
+.parameters{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 506px;
+}
+
+.header_parameter{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.parameter_info{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom: 1px solid #121723;
+  padding: 24px 0px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
 
 @media (max-width: 768px)  {
   .container-header{
@@ -241,4 +326,51 @@ h2 {
   .footer-text::before{
       width: 375px;
   }
+
+  .sneakers_pages {
+    min-width: 375px;
+    width: 100%;
+    padding: 0px;
+}
+
+.container_info{
+  flex-wrap: wrap;
+}
+
+.sneaker_pages  {
+    width: 375px;
+}
+
+.container__image_pages {
+    height: 254px;
+}
+
+.container_info_pages {
+    flex-wrap: wrap;
+}
+
+.container__title_pages {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container__text_pages {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text_info{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header_parameter{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.parameter_info{
+    font-size: 16px;
+    font-weight: 400;
+}
 }
