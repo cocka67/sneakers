@@ -31,13 +31,14 @@ body {
 
 .social-items{
   list-style: none;
-  padding: 15px 24px 25px 0px;
   margin: 0px;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
-.social-items:last-child{
-  padding: 15px 0px 25px 0px;
-}
 
 .social-item{
   margin-left: 24px;
@@ -45,10 +46,8 @@ body {
   text-transform: none;
   color: #121723;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
-
+  display: inline;
 }
 
 h1 {
@@ -150,7 +149,7 @@ h2 {
   width: 1160px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .footer-text{
