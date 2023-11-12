@@ -198,6 +198,11 @@ h2 {
 
 .sneaker_pages{
   width: 1200px;
+  
+}
+
+.sneaker_pages:hover{
+  transform: scale(1);
 }
 
 .container__title_pages{
